@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap'); 
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    /* background: #1E1E1E; */
+}
+
+.landing-page{
+    min-height: 100vh;
+	width: 100%;
+    background: #1E1E1E;
+    background-position: center;
+	background-size: cover;
+	position: relative;    
+}
+
+
+.box{
+    width:800px;
+  
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);    
+    height: 600px;
+
+}
+
+/* .parent{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.parent .child{
+    width: 50%;
+} */
+
+/* .box{
+    display: flex;
+} */
+
+.box h1{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 39px;
+    color: #4F4F4F;
+    /* margin-top: 30%; */
+
+}
+
+
+
+.box .welcome{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(39.67deg, #4E3173 11.04%, #945462 104.31%);
+    width:50%;
+    height: 600px;
+    background-size: cover;
+   
+    left: 400px;
+    
+}
+
+.box .welcome img{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    /* top: 10%; */
+    /* left: 50%; */
+
+}
+
+.box .welcome h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 90px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    left: 765px;
+    top: 64px;
+
+}
+
+/* form{
+    background: white ;
+} */
+
+.white{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 600px;
+    background: white;
+    
+
+
+}
+
+
+
+
+
+.white .inputbox input{
+    width: 65%;
+    padding: 5px;
+    margin: 20px 0;
+    margin-top: 30px;
+    margin-left: 60px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #5FD48E;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.white .inputbox {
+    position: relative;
+
+}
+
+.white .inputbox label{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    /* top: 5px; */
+    left: 60px;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.07em;
+    color: #4F4F4F;
+
+}
+
+
+.signup-btn{
+    background: #5FD48E;
+    box-sizing: border-box;
+    position: absolute;
+    /* bottom: 187px; */
+    background: #5fd48e;
+    width: 65%;
+    padding: 5px;
+    margin: 20px 0;
+    margin-top: 30px;
+    margin-left: 60px;
+    outline: none;
+    border: 1px solid #5FD48E;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+
+    
+}
+
+
+
+
+h2{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #333333;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 12px;
+    max-width: 600px;
+    position: relative;
+}
+
+
+
+h2::before{
+    content: '';
+    display: block;
+    width: 140px;
+    height: 1px;
+    background: #666666;
+    position: absolute;
+    left: 0;
+    /* padding-left: 10%; */
+    top: 50%;
+
+}
+
+h2::after{
+    content: '';
+    display: block;
+    width: 140px;
+    height: 1px;
+    background: #666666;
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+}
+
+
+
+
+/* .text{
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    
+}
+
+.title{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 15%;
+    text-align: center;
+    align-items: center;
+    column-gap: 0rem;
+    
+} 
+
+
+.title::before, .title::after{
+    content: '';
+    height: 1px;
+    width: 80%;
+    background-color: #666666;
+    align-items: center;
+} */
+
+
+.white .check{
+    /* height: 40px; */
+    margin-left: 60px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 19px;
+    letter-spacing: 0.07em;
+    color: #000000;
+
+}
+
+
+
+.white .btn-google{
+    background: #5FD48E;
+    cursor: pointer;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 65%;
+    padding: 5px;
+    margin: 20px 0;
+    margin-top: 15px;
+    margin-left: 60px;
+    outline: none;
+    border: 1px solid #5FD48E;
+    border-radius: 5px;
+    bottom: 15%;
+
+}
+
+
+.white .btn-google .icon img{
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+   
+}
+
+
+.toggle{ 
+    background: none;
+    border: none;
+    font-weight: 600;
+    position: absolute;
+    right: .95;
+    top: 2.50rem;
+    z-index: 9;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
